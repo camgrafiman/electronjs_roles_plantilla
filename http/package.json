@@ -1,0 +1,24 @@
+{
+    "name": "configuracion",
+    "version": "0.0.0",
+    "private": true,
+    "description": "",
+    "scripts": {
+        "start": "node ./bin/www"
+    },
+    "engine": {
+        "node": ">=10.15.1"
+    },
+    "author": "Alejandro Gallego",
+    "license": "ISC",
+    "dependencies": {
+        "body-parser": "^1.19.0",
+        "cookie-parser": "^1.4.5",
+        "ejs": "^3.1.5",
+        "electron-log": "^4.2.4",
+        "express": "^4.17.1",
+        "serve-favicon": "^2.5.0",
+        "winston": "^3.3.3",
+        "winston-express": "^0.1.1"
+    }
+}
